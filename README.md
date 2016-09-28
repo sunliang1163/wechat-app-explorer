@@ -10,6 +10,7 @@
 *  真的真的能避免好多小问题
 
 ### 还有假如你写过vue的话，那就更方便了,写法基本一样
+### window.innerHeight直接innerHeight,window.setInterval 直接setInterval, bindscroll必须写在<scroll-view></scroll-view>
 ###  wx.request 请求  注意的一点:传输的数据一定要序列化成字符串
 ```javascript
     var that=this;
