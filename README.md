@@ -1,7 +1,8 @@
-##谈一谈感受
+## 谈一谈感受
 * 刚开始写还是感觉挺刺激的...
 * 写着写着发现卧槽window.innerHeight 不能用了。 window.setInterval 不能用 。。@keyframes不能用 。。bindscroll怎么不起作用...一系列小问题  
 * 然后应用微信自带的组件 ，各种问题。。
+
 ## 所以问题来了重要的事情要说三遍：http://wxopen.notedown.cn/ 
 * （官方文档仔细看）
 * （官方文档仔细看）
