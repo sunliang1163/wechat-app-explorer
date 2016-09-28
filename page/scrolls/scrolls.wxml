@@ -1,0 +1,20 @@
+<view class="lcontainer">
+    <view class="llst">
+        <scroll-view scroll-y="true" style="height:100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll"  scroll-top="100" scroll-into-view="litem_2">
+            <block wx:for="{{[1, 2, 3,4,3,4,5,6,6,7,7,8,9,4,4,4,4,44,4,44,3,3,33,3,3]}}">
+                 <view  class="litem" id="litem_{{index}}">
+                    <image src="../../public/image/jd-list-1.jpg"  class="limage"></image>
+                    <view class="ltext">
+                        <view class="ltext-price">小雷锋机器人,我们的品质,值得信赖</view>
+                        <view class="ltext-price">原价:￥69 远</view>
+                        <view class="ltext-price">秒杀:￥39 远</view>
+                        <view class="ltext-price">
+                            <view class="ltext-progress">
+                            </view>
+                        </view>
+                    </view>
+                 </view>
+            </block>
+        </scroll-view>
+    </view>
+</view>

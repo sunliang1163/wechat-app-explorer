@@ -1,0 +1,124 @@
+/*查询样式*/
+#search{
+    background-color: rgba(234,44,44,.8);
+    width:100%;
+    height:45px;
+    position: fixed;
+    top:0;
+    z-index:1;
+    min-width: 320px;
+    max-width: 640px;
+}
+.search{
+    position: relative;
+    width:90%;
+    height:35px;
+    padding: 5px 15px;
+    margin: 0 auto;
+    color:#fff;
+}
+.search input{
+    margin: auto;
+    height:29px;
+    width: 75%;
+    margin-top:3px; 
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 4px;
+}
+.hwb-logo{
+    position: absolute;
+    left:14px;
+    top:12px;
+}
+.sign-in{
+    position: absolute;
+    right:12px;
+    top:14px;
+}
+.clear-fix{
+    content:'';
+    height: 0;
+    clear:both;
+    display: table;
+}
+/*列表样式*/
+.hwb-icon-item{
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-top: 12px;
+}
+.hwb-icon-item .hwb-icon-con{
+    width:40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.hwb-icon-item text{
+    color:#666;
+    margin-top:6px;
+    display: inline-block;
+}
+
+/*秒杀样式*/
+#spike {
+	background-color: #fff;
+	margin-top: 5px;
+	padding: 5px;
+}
+.floatLeft{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.spike-title{
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    color: #ca1327;
+    margin: 10px 6px 0 15px;
+}
+.spike-time{
+    display: inline-block;
+    margin-top: 8px;
+}
+.spike-time text{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    padding: auto;
+    text-align: center;
+    color: #fff;
+    background: #3d3d3d;
+    border-radius: 2px;
+    padding-right: 2px;
+    margin: 0 2px;
+}
+.spike-more{
+    font-size: 12px;
+    margin-top:10px;
+    color:#666;
+    margin-right: 15px;
+    
+}
+/*京东底部的实现*/
+.jd-footer{
+    background-color: #fff;
+    position: fixed;
+    height: 44px;
+    z-index: 28;
+    bottom:40px;
+    left: 0;  
+    width:100%;
+}
+.jd-con{
+    display: flex;
+}
+.flex1{
+    flex:1;
+    text-align: center;
+}

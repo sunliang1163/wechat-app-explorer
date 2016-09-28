@@ -1,0 +1,4 @@
+<view class="container">
+	<view id="search"></view>
+	<view id="header"></view>
+</view>

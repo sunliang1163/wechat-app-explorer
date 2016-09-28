@@ -1,0 +1,44 @@
+/*@import "../../public/wxss/public.wxss";*/
+.lcontainer{
+    font-family:Helvetica;
+    height: 100%;
+    font-size: 12px;
+    border-bottom: 1px solid #EAEAEA;
+    margin: 0px;
+    padding: 0px;
+    }
+
+ .litem{
+     color:#34495e;
+     display: flex;
+     border-bottom: 1px solid #ddd;
+     width: 100%;
+     height: 100px;
+}
+.limage{ 
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.ltext{  
+    padding-top: 10px; 
+    padding-right: 6px;
+    flex:1;
+}
+.ltext-price{
+   margin-top:4px;
+   display: flex;
+   justify-content: flex-end;
+}
+.ltext-progress{
+    display: flex;
+    justify-content: flex-end;
+    height:15px;
+    width:40px;
+    background-color: #d2181c;
+    animation:progress 0.5s ease-in-out;
+    border-radius: 5px 0 0 5px; 
+    
+}
+
